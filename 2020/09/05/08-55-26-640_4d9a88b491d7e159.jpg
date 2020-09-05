@@ -1,0 +1,689 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta property="og:title" content="LiveLeak.com - Redefining the Media"/>
+<meta property="og:description" content="Redefining the Media"/>
+<meta property="og:image" content="https://cdn3.liveleak.com/ll3/images/img_logo.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>LiveLeak.com - Redefining the Media</title>
+<meta property="og:url" content="https://www.liveleak.com/"/><base href="https://www.liveleak.com/">
+<link rel="apple-touch-icon" href="https://cdn3.liveleak.com/ll3/images/img_live_leak_pic.png"/>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn3.liveleak.com/ll3/css/style.css" rel="stylesheet" type="text/css">
+<link href="https://cdn3.liveleak.com/ll3/css/media.css" rel="stylesheet" type="text/css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn3.liveleak.com/ll3/css/ekko-lightbox.min.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn3.liveleak.com/ll3/css/prettyLoader.css" type="text/css" media="screen" charset="utf-8" />
+<script src="//code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script src="https://cdn3.liveleak.com/ll3/js/jquery.prettyLoader.js" type="text/javascript" charset="utf-8" defer></script>
+<script src='//www.google.com/recaptcha/api.js'></script>
+<script src="https://cdn3.liveleak.com/ll3/js/jquery.waypoints.min.js" defer></script>
+<script src="https://cdn3.liveleak.com/ll3/js/ekko-lightbox.min.js" defer></script>
+<script src="https://cdn3.liveleak.com/ll3/js/always_include.js"></script>
+<script src="https://cdn3.liveleak.com/ll3/js/jquery.timeago.js" type="text/javascript" defer></script>
+<script src="//use.fontawesome.com/e7e82898ff.js"></script>
+  <link href="https://cdn3.liveleak.com/misc/videojsn/video-js.min.css" rel="stylesheet">
+  <script src="https://cdn3.liveleak.com/misc/videojsn/video.min.js"></script>
+  <script src="https://cdn3.liveleak.com/misc/videojsn/videojs.persistvolume.js"></script>
+  <script src="https://cdn3.liveleak.com/misc/videojsn/nuevo_ll3.min.js" type="text/javascript"></script>
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+  <script async='async' src='https://cdn3.liveleak.com/ll3/js/prebid4.2.0.js'></script>
+  					<script>
+  					  var googletag = googletag || {};
+  					  googletag.cmd = googletag.cmd || [];
+  					</script>
+
+  					<script>
+  					  googletag.cmd.push(function() {
+  					    googletag.defineSlot('/1838131/top_right_ad_unit', [[300, 600], [300, 250]], 'div-gpt-ad-1560328043494-0').addService(googletag.pubads());
+  					    //googletag.defineSlot('/1838131/top_right_with_prebid', [[300, 600], [300, 100], [300, 250]], 'div-gpt-ad-1596449982739-0').addService(googletag.pubads());
+  					    googletag.pubads().enableSingleRequest();
+  					    googletag.enableServices();
+  					  });
+</script>
+<script>
+
+$(document).ready(function() {
+
+$.prettyLoader();
+
+refresh_rate_things('');
+
+window.onbeforeunload = function() {
+   var initiate_prompt = 0;
+    if (typeof window.uploaders != 'undefined')
+   {
+      window.uploaders.forEach(function(item,index)
+     {
+     //alert(item.state);
+       if(item.state == 2)
+       {
+            initiate_prompt = 1;
+       }
+     });
+  }
+
+  if(initiate_prompt)return 'are you sure you want to leave this page?';
+};
+
+});
+
+jQuery(document).ready(function() {
+  $("time.timeago").timeago();
+});
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox(
+    {
+      onShown: function() {
+	        var lightbox = this;
+	        $(document).on('closeLightbox', function () {
+	            lightbox.close();
+	        });
+      }
+    });
+});
+
+
+$(document).ready(function(){
+
+	$('.slider').click(function(){
+			if($("#check_box_onoff").prop('checked') == true){
+				$('.check_btn_text').removeClass('onbutton');
+				$('.check_btn_text').addClass('offbutton');
+				$('.check_btn_text').text('Off');
+			}
+			else{
+				$('.check_btn_text').removeClass('offbutton');
+				$('.check_btn_text').addClass('onbutton');
+				$('.check_btn_text').text('On');
+			}
+		});
+	});
+</script>
+
+<script>
+$(document).ready(function(){
+    $(".guest_button_con").click(function(){
+        $(".liveleak_guest_dropdown").toggle();
+    });
+
+	$(".search_icon").click(function(){
+        $(".Search_box_outer").toggle();
+    });
+
+	$(".mobile_search_icon").click(function(){
+        $(".mobile_show").toggle();
+    });
+
+});
+</script>
+<style>
+.msg { margin:4px !important; border:none !important; background-color:#f0f0f0 !important; }
+
+.nav_main_outer a { color:#fff !important; }
+
+.guest_button_con a {color: #ccc !important;}
+
+.content_main_outer { background-color:#88070B; padding: 0 0 30px !important;}
+.content_main_inner { background-color:#fff; padding:10px !important; }
+
+a {color: #333 !important}
+
+h3 a { font-size:14px; font-family:Verdana,Arial,sans-serif; font-weight:bold; color:#88070B !important; }
+
+.featured_text_con {color:#000 !important;}
+
+.step_outer { color: #333 !important;}
+
+p { font-size:14px !important; color:#000 !important; }
+
+.subnav_inner li a {color: #c2c2c2 !important}
+
+.nav_main li:last-child a {background: #8e2a2a !important;}
+
+@media only screen and (max-width: 766px) { .nav_main li a{color:#333 !important;} }
+
+@media only screen and (min-width: 767px)
+ { .nav_main_outer {background-color: #88070B !important;} }
+
+.view_comments_button a {color:#FFF !important;}</style></head>
+
+<body>
+<main>
+
+<!--HEADER START-->
+<header class="navbar-fixed-top">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 pad_none header_main_inner">
+<div class="col-sm-3 col-md-3 col-xs-12 pad_none header_logo_con"><a href="https://www.liveleak.com/"><img src="https://cdn3.liveleak.com/ll3/images/img_logo.png" alt="logo"></a></div>
+<div class="col-sm-9 col-md-9 col-xs-12 pad_none header_right_outer">
+<div class="col-sm-6 col-md-4 col-xs-12 pad_none subnav_inner hidden-xs">
+           <ul>
+             <li><a href="browse">Recent Items</a></li>
+             <li><a href="c/must_see">Must See</a></li>
+             <li><a href="c/WTF">Wtf</a></li>
+             			 <li><a href="user?a=login">[Log In]</a></li>			            </ul>
+        </div>
+
+<div class="col-sm-1 col-md-4 col-xs-12 pad_none search_bar_outer">
+<div class="mobile_search_icon"><img src="https://cdn3.liveleak.com/ll3/images/img_search_icon_mobile.png" ></div>
+<div class="desktop_show"><form action="browse" method="get">
+<input name="q" type="text" placeholder="Your Search Entry">
+<input name="a" type="hidden" value="list">
+<input name="submit" type="submit">
+</form>
+</div>
+
+<div class="mobile_show" style="display:none;"><form action="browse" method="get">
+<input name="q" type="text" placeholder="Your Search Entry">
+<input name="a" type="hidden" value="list">
+<input name="submit" type="submit">
+</form>
+</div>
+
+</div>
+<div class="col-sm-5 col-md-4 col-xs-12 pad_none add_guest_outer">
+<div class="add_button"><a href="thread?a=add"><img src="https://cdn3.liveleak.com/ll3/images/img_add_pic.png" alt="add arrow pic"> <!--<span>Add</span>--></a></div>
+<div class="guest_button_con" style="float:right">
+<a href="javascript://" class="mobile_display_none"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp</span>
+Guest&nbsp;&nbsp;
+<i class="fa fa-angle-down"></i></a>
+<div class="mobile_user_pic"><i class="fa fa-user-circle" aria-hidden="true" style="font-size:20px"></i></span></div>
+</div>
+</div>
+
+
+<!--GUEST DROP DOWN START-->
+<div class="liveleak_guest_dropdown" style="display:none;">
+<div class="col-sm-6 col-md-6 col-xs-6 pad_none liveleak_guest_outer padd_right">
+<div class="col-xs-12 pad_none login_con live_padd_left"><a href="user?a=login">Login</a></div>
+<div class="col-xs-12 pad_none guest_dropdown_language">
+<dl class="dropdown">
+	<dt><a><span><img src="https://cdn3.liveleak.com/ll3/images/img_flag_usa.png" alt=""> English</span></a></dt>
+		<dd>
+        <ul class="dropdown">
+        <li><a href="https://www.liveleak.com//browse?featured=1/favicon.ico&language_code=en"><img src="https://cdn3.liveleak.com/ll3/images/img_flag_usa.png" alt=""> English</a></li>
+        <li><a href="https://www.liveleak.com//browse?featured=1/favicon.ico&language_code=es"><img src="https://cdn3.liveleak.com/ll3/images/img_flag_spanish.png" alt=""> Spanish</a></li>
+        <li><a href="https://www.liveleak.com//browse?featured=1/favicon.ico&language_code=ru"><img src="https://cdn3.liveleak.com/ll3/images/img_flag_chinese.png" alt=""> Russian</a></li>
+		<li><a href="https://www.liveleak.com//browse?featured=1/favicon.ico&language_code=pt"><img src="https://cdn3.liveleak.com/ll3/images/img_flag_br.png" alt=""> Portuguese</a></li>
+
+		</ul>
+		</dd>
+</dl>
+</div>
+<div class="col-xs-12 pad_none guest_dropdown_language">
+	  <dl class="dropdown">
+	  	<dt><a><span>Theme</span></a></dt>
+	  		<dd>
+	          <ul class="dropdown">
+	          <li><a href="https://www.liveleak.com//browse?featured=1/favicon.ico&theme_id=0">White</a></li>
+	          <li><a href="https://www.liveleak.com//browse?featured=1/favicon.ico&theme_id=1">Red</a></li>
+	  		</ul>
+	  		</dd>
+	  </dl>
+</div>
+
+</div>
+<div class="col-sm-6 col-md-6 col-xs-6 pad_none liveleak_guest_outer liveleak_guest_border">
+<div class="col-xs-12 pad_none login_con live_padd_right">
+ <a href="javascript://" onClick="if(confirm('Turning the safe mode off will disable the current protection that prevents mature preview images and avatars from showing. By clicking OK you agree that you are 18 years and over and want to turn the safe mode OFF')){ var url_part = '?'; current_url = window.location.href.replace(/[?&amp;]safe_mode=(on|off)/g, ''); if(current_url.indexOf('?') != -1)url_part = '&amp;'; window.location.href = current_url + url_part + 'safe_mode=off';}">Safe Mode: On</a> </div>
+<div class="col-xs-12 pad_none login_con live_padd_right"><a href="user?a=register">Register</a></div></div>
+
+</div>
+
+<!--GUEST DROP DOWN START END-->
+
+</div>
+</div>
+</div>
+</div>
+</header>
+<!--HEADER END-->
+<!--NAVIGATION START-->
+<section class="nav_main_outer">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 pad_none nav_main_inn">
+<nav>
+<div class="navbar-default nav_main">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse pad_none" id="bs-example-navbar-collapse-1">
+      <div class="nav_bar">
+           <ul>
+<li class="visible-xs"><a href="browse">Recent Items</a></li>
+<li class="visible-xs"><a href="channels">Channels</a></li>
+<li><a href="https://www.liveleak.com/c/news" style="border-left:none !important;">News &amp; Politics</a></li>
+<li><a href="https://www.liveleak.com/c/law_enforcement">Law Enforcement</a></li>
+<li><a href="https://www.liveleak.com/c/must_see">Must See</a></li>
+<li><a href="https://www.liveleak.com/c/weather">Weather</a></li>
+<li><a href="https://www.liveleak.com/c/entertainment">Entertainment</a></li>
+<li><a href="https://www.liveleak.com/c/yoursay">Yoursay</a></li>
+<li><a href="https://www.liveleak.com/c/liveleakers">Liveleakers</a></li>
+<li><a href="channels" class="more_con">More <img src="https://cdn3.liveleak.com/ll3/images/img_double_arrow.png" alt="double arrow"></a></li>
+</ul>
+
+        </div>
+    </div>
+    </div>
+</nav>
+</div>
+</div>
+</div>
+</section>
+<!--NAVIGATION END-->
+
+
+<!--CONTENT SECTION START-->
+<section class="content_main_outer">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 pad_none content_main_inner">  <div class="col-sm-12 col-md-8 col-xs-12 pad_none content_inner_page_left_outer">
+            <script>  
+var animationDuration = 2500;
+var timeWhenLastUpdate;
+var timeFromLastUpdate;
+var frameNumber = 1;
+var animationRequest;
+
+ function load_images(thumbnail_url,totalFrames)
+ {
+	if(totalFrames>15)totalFrames = 15;
+	 
+	for (var i = 1; i < totalFrames + 1; i++)
+	{
+       thumbnail_url = thumbnail_url.replace(/_[0-9]+_thumb/g, '_'+i+'_thumb');
+	   $('body').append('<div id="preload-image-'+i+'" style="background-image: url(\''+thumbnail_url+'\');"></div>');
+	   
+    } 
+	 
+ }
+		  
+ function step(startTime,thumbnail_url,id,totalFrames) {
+	 
+  if(totalFrames>15)totalFrames = 15;
+  
+  var timePerFrame = animationDuration / totalFrames;
+	 
+  if (!timeWhenLastUpdate) timeWhenLastUpdate = startTime;
+
+  timeFromLastUpdate = startTime - timeWhenLastUpdate;
+     
+  thumbnail_url = thumbnail_url.replace(/_[0-9]+_thumb/g, '_'+frameNumber+'_thumb');
+
+  if (timeFromLastUpdate > timePerFrame) {
+    $('#'+id).attr('src', thumbnail_url);
+    timeWhenLastUpdate = startTime;
+
+    if (frameNumber >= totalFrames) {
+      frameNumber = 1;
+    } else {
+       frameNumber = frameNumber + 1;
+    }        
+  }
+
+  animationRequest = requestAnimationFrame(function(startTime){step(startTime,thumbnail_url,id,totalFrames)});
+}
+</script>
+          <!--THREAD LIST START-->
+<div class="col-xs-12 pad_none featured_item_main_outer">
+<div class="col-xs-12 pad_none featured_con"><h2>Featured</h2></div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52f4d503bc4_4_thumb.jpg',139); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52f4d503bc4_4_thumb.jpg','thumbnail_9RsJT_1599271517',139);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=9RsJT_1599271517"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52f4d503bc4_4_thumb.jpg" alt="Trump on Bogus Atlantic Story: Fake News by Desperate People" id="thumbnail_9RsJT_1599271517"><div class="pg_text">GA</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[9RsJT_1599271517]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">95</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=9RsJT_1599271517" title="Trump on Bogus Atlantic Story: Fake News by Desperate People">
+Trump on Bogus Atlantic Story: Fake News by..</a></h3> <p>We all know Trump may say some weird things but calling fallen America..</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/Low_UFO">Low UFO</a> (3010.70) | Leaked: 6 hours ago in: <a href="https://www.liveleak.com/c/Low_UFO">Low UFO</a> | Views: 2170</div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52ef7a89e20_4_thumb.jpg',21); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52ef7a89e20_4_thumb.jpg','thumbnail_kzcJR_1599270775',21);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=kzcJR_1599270775"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52ef7a89e20_4_thumb.jpg" alt="Mounting a bull" id="thumbnail_kzcJR_1599270775"><div class="pg_text">GA</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[kzcJR_1599270775]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">17</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=kzcJR_1599270775" title="Mounting a bull">
+Mounting a bull</a></h3> <p>Reverse mounting.</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/UKnowImRight">UKnowImRight</a> (3074.30) | Leaked: 7 hours ago in: <a href="https://www.liveleak.com/c/UKnowImRight">UKnowImRight</a> | Views: 3038</div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52bc8366081_5_thumb.jpg',24); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52bc8366081_5_thumb.jpg','thumbnail_9QBTb_1599257834',24);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=9QBTb_1599257834"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52bc8366081_5_thumb.jpg" alt="BLM DESTROYS STORE OWNED BY BLM SUPPORTER" id="thumbnail_9QBTb_1599257834"><div class="pg_text">PG</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[9QBTb_1599257834]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">196</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=9QBTb_1599257834" title="BLM DESTROYS STORE OWNED BY BLM SUPPORTER">
+BLM DESTROYS STORE OWNED BY BLM SUPPORTER</a></h3> <p>This woman, who happens to be a part-time Black Lives Matter protester..</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/funkdelux121">funkdelux121</a> (10224.80) | Leaked: 10 hours ago in: <a href="https://www.liveleak.com/c/funkdelux121">funkdelux121</a> | Views: 4185</div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52b93034459_5_thumb.jpg',19); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52b93034459_5_thumb.jpg','thumbnail_ajsFK_1599256913',19);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=ajsFK_1599256913"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52b93034459_5_thumb.jpg" alt="*OLD WOMAN* WASHES PRIVATE AREA ON FIRE-HYDRANT" id="thumbnail_ajsFK_1599256913"><div class="pg_text">PG</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[ajsFK_1599256913]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">83</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=ajsFK_1599256913" title="*OLD WOMAN* WASHES PRIVATE AREA ON FIRE-HYDRANT">
+*OLD WOMAN* WASHES PRIVATE AREA ON FIRE-HYD..</a></h3> <p>Granny uses fire-hydrant to refresh herself... good thing she wears kn..</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/funkdelux121">funkdelux121</a> (10224.80) | Leaked: 10 hours ago in: <a href="https://www.liveleak.com/c/funkdelux121">funkdelux121</a> | Views: 7006</div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52b4c696ed8_4_thumb.jpg',12); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52b4c696ed8_4_thumb.jpg','thumbnail_9oxSW_1599255768',12);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=9oxSW_1599255768"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52b4c696ed8_4_thumb.jpg" alt="Demolition Goes Wrong in Nepal" id="thumbnail_9oxSW_1599255768"><div class="pg_text">PG</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[9oxSW_1599255768]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">5</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=9oxSW_1599255768" title="Demolition Goes Wrong in Nepal">
+Demolition Goes Wrong in Nepal</a></h3> <p>Deconstruction of a five story building goes wrong as the building fal..</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/jesusmessenger">jesusmessenger</a> (915.60) | Leaked: 11 hours ago in: <a href="https://www.liveleak.com/c/jesusmessenger">jesusmessenger</a> | Views: 5022 | 
+Location: </div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5296cd662ce_6_thumb.jpg',13); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5296cd662ce_6_thumb.jpg','thumbnail_925yF_1599248137',13);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=925yF_1599248137"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5296cd662ce_6_thumb.jpg" alt="Close call in Lebanon" id="thumbnail_925yF_1599248137"><div class="pg_text">PG</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[925yF_1599248137]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">4</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=925yF_1599248137" title="Close call in Lebanon">
+Close call in Lebanon</a></h3> <p>Two men almost swept away by a car while having conversation on a side..</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/VasilyPinchuk">VasilyPinchuk</a> (3.00) <font color="#FF0000">NEW!</font> | Leaked: 13 hours ago in: <a href="https://www.liveleak.com/c/VasilyPinchuk">VasilyPinchuk</a> | Views: 3751 | 
+Location: </div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52849b97f4c_12_thumb.jpg',17); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52849b97f4c_12_thumb.jpg','thumbnail_9mdbF_1599243748',17);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=9mdbF_1599243748"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52849b97f4c_12_thumb.jpg" alt="when a liveleaker gets angry" id="thumbnail_9mdbF_1599243748"><div class="pg_text">GA</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[9mdbF_1599243748]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">82</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=9mdbF_1599243748" title="when a liveleaker gets angry">
+when a liveleaker gets angry</a></h3> <p>Hahahaha</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/tronaa">tronaa</a> (4854.10) | Leaked: 14 hours ago in: <a href="https://www.liveleak.com/c/tronaa">tronaa</a> | Views: 8866</div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5276d9b8c94_12_thumb.jpg',87); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5276d9b8c94_12_thumb.jpg','thumbnail_uv99p_1599239914',87);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=uv99p_1599239914"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5276d9b8c94_12_thumb.jpg" alt="Thugs escape the police in live broadcast" id="thumbnail_uv99p_1599239914"><div class="pg_text">GA</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[uv99p_1599239914]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">9</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=uv99p_1599239914" title="Thugs escape the police in live broadcast">
+Thugs escape the police in live broadcast</a></h3> <p>The bandit was hitchhiking on a motorcycle making a live broadcast  an..</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/moasanjun">moasanjun</a> (1693.52) | Leaked: 15 hours ago in: <a href="https://www.liveleak.com/c/moasanjun">moasanjun</a> | Views: 5735 | 
+Location: </div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5264d2a8b8d_7_thumb.jpg',39); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5264d2a8b8d_7_thumb.jpg','thumbnail_aaLzg_1599235221',39);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=aaLzg_1599235221"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5264d2a8b8d_7_thumb.jpg" alt="Further footage of car ramming through protesters in New York's Times Square" id="thumbnail_aaLzg_1599235221"><div class="pg_text">PG</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[aaLzg_1599235221]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">90</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=aaLzg_1599235221" title="Further footage of car ramming through protesters in New York's Times Square">
+Further footage of car ramming through prot..</a></h3> <p>A car drove through Black Lives Matter protesters in Times Square, New..</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/NewsFlare">NewsFlare</a> (87213.00) | Leaked: 16 hours ago in: <a href="https://www.liveleak.com/c/NewsFlare">NewsFlare</a> | Views: 6107</div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5256b9453c4_19_thumb.jpg',21); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5256b9453c4_19_thumb.jpg','thumbnail_sN65O_1599231715',21);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=sN65O_1599231715"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f5256b9453c4_19_thumb.jpg" alt="ZZzzzzz..." id="thumbnail_sN65O_1599231715"><div class="pg_text">GA</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[sN65O_1599231715]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">68</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=sN65O_1599231715" title="ZZzzzzz...">
+ZZzzzzz...</a></h3> <p>Hahaha</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/tronaa">tronaa</a> (4854.10) | Leaked: 17 hours ago in: <a href="https://www.liveleak.com/c/tronaa">tronaa</a> | Views: 8122</div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f523827a0d94_6_thumb.jpg',39); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f523827a0d94_6_thumb.jpg','thumbnail_sMk2F_1599223954',39);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=sMk2F_1599223954"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f523827a0d94_6_thumb.jpg" alt="Snake Eating a Rat and it's Two Kittens !" id="thumbnail_sMk2F_1599223954"><div class="pg_text">PG</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[sMk2F_1599223954]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">23</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=sMk2F_1599223954" title="Snake Eating a Rat and it's Two Kittens !">
+Snake Eating a Rat and it's Two Kittens !</a></h3> <p>South America</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/evilfoundnation">evilfoundnation</a> (7496.40) | Leaked: 20 hours ago in: <a href="https://www.liveleak.com/c/evilfoundnation">evilfoundnation</a> | Views: 5177</div>
+</div>
+</div>
+<div class="col-xs-12 pad_none featured_items_outer" onmouseover="load_images('https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52015d79213_97_thumb.jpg',100); step(0,'https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52015d79213_97_thumb.jpg','thumbnail_CzRXP_1599209855',100);" onmouseout="cancelAnimationFrame(animationRequest);">
+<a href="https://www.liveleak.com/view?t=CzRXP_1599209855"><div class="col-sm-3 col-md-3 col-xs-5 pad_none featured_items_pic"><img src="https://cdn3.liveleak.com/2020/Sep/4/LiveLeak-dot-com-5f52015d79213_97_thumb.jpg" alt="Drunk Mexican guys epic showdown with Scottish bouncers" id="thumbnail_CzRXP_1599209855"><div class="pg_text">PG</div></div></a>
+<div class="col-sm-9 col-md-9 col-xs-7 pad_none featured_items_right" style="height: 100px; overflow:hidden;">
+<h3>
+<span name="rate_thing_container[CzRXP_1599209855]" class="hidden-xs">
+<samp class="arrow_top"><i class="fa fa-angle-up rate_thing uprate" aria-hidden="true"></i></samp>
+<samp class="text_center_con thing_score">29</samp>
+<samp class="arrow_bottom"><i class="fa fa-angle-down rate_thing downrate" aria-hidden="true"></i></samp>
+</span>
+<a href="https://www.liveleak.com/view?t=CzRXP_1599209855" title="Drunk Mexican guys epic showdown with Scottish bouncers">
+Drunk Mexican guys epic showdown with Scott..</a></h3> <p>glasgow uk</p>
+<div class="col-xs-12 pad_none featured_text_con">By: <a href="https://www.liveleak.com/c/kaneda_inamoto">kaneda_inamoto</a> (3.00) | Leaked: 23 hours ago in: <a href="https://www.liveleak.com/c/kaneda_inamoto">kaneda_inamoto</a> | Views: 10416 | 
+Location: </div>
+</div>
+</div>
+</div>
+<!--THREAD LIST END-->
+
+
+<!--PAGINATION START-->
+<div class="col-xs-12 pad_none pagination_con">
+<nav>
+  <ul class="pagination">
+      <li>
+    <a href="javascript://" style="color:#000 !important"><strong>1</strong></a>     <li>
+        <a href="browse?featured=1%2Ffavicon.ico&page=2">2</a>
+        </li>
+        <li>
+        <a href="browse?featured=1%2Ffavicon.ico&page=3">3</a>
+        </li>
+        <li>
+        <a href="browse?featured=1%2Ffavicon.ico&page=4">4</a>
+        </li>
+        <li>
+        <a href="browse?featured=1%2Ffavicon.ico&page=5">5</a>
+        </li>
+        <li>
+        <a href="browse?featured=1%2Ffavicon.ico&page=6">6</a>
+        </li>
+        <li>
+        <a href="browse?featured=1%2Ffavicon.ico&page=7">7</a>
+        </li>
+        <li>
+          <a href="browse?featured=1%2Ffavicon.ico&page=2" aria-label="Next">
+     <i class="fa fa-angle-right" aria-hidden="true"></i>
+
+      </a>
+          </li>
+      </ul>
+</nav>
+</div>
+<!--PAGINATION END-->
+    </div> <!--content_inner_page_left_outer-->
+    <div class="col-sm-6 col-md-4 col-xs-12 pad_none content_main_right_outer">
+
+            <!--SOCIAL PANEL START-->
+            <div class="col-xs-12 pad_none social_icons_outer">
+              <div class="sharethis-inline-share-buttons"></div>
+            </div>
+
+            <!--SOCIAL PANEL END-->
+
+
+            <div class="col-xs-12 pad_none" style="padding: 5px !important; margin-bottom:10px !important; border: 1px solid #cccccc">
+                        <center>
+						<script type="text/javascript"><!--
+				e9 = new Object();
+			    e9.size = "300x250,300x600,160x600";
+			//--></script>
+<script type="text/javascript" src="//tags.expo9.exponential.com/tags/Liveleakcom/ROS/tags.js"></script>
+        </center>
+</div>
+
+            <!--CURRENT EVENTS START-->
+            <div class="col-xs-12 pad_none current_main_outer">
+              <h3>Advertisers</h3>
+              <div class="col-xs-12 pad_none advertise_main_outer">
+                <div class="col-xs-12 pad_none advertise_liveleak"> <span><a href="contact_us?subject=advertise">Advertise on Liveleak</a></span> <span><a href="https://www.gearpress.co.uk/product-category/liveleak/" target="_blank" rel="nofollow">Liveleak Merchandise</a></span></div>
+                              </div>
+            </div>
+            <!--CURRENT EVENTS END-->
+
+          </div> <!--content_main_right_outer-->         <script type="text/javascript">ggv2id='205010be';</script>
+		 <script type="text/javascript" src="https://js.gumgum.com/services.js"></script>
+		 <script>(function(w,t,d,s){
+		 d=w.document;w.ggv2id=t;s=d.createElement('script');
+		 s.async=true;s.src='https://js.gumgum.com/services.js';
+		 d.getElementsByTagName('head')[0].appendChild(s);}
+(top,'205010be'));</script>
+</div> <!--content_main_inner-->
+</div> <!--row-->
+</div> <!--container-->
+</section> <!--content_main_outer-->
+<!--CONTENT SECTION END-->
+
+<!--FOOTER START-->
+<!-- CookiePro CCPA Opt-Out Script Start --><script>var otCcpaScript = document.createElement('script'),script1 = document.getElementsByTagName('script')[0];otCcpaScript.src = 'https://cookie-cdn.cookiepro.com/ccpa-optout-solution/v1/ccpa-optout.js';otCcpaScript.async = false;otCcpaScript.type = 'text/javascript';script1.parentNode.insertBefore(otCcpaScript, script1); window.otccpaooSettings = {layout: {dialogueLocation:"right",primaryColor: "#6aaae4",secondaryColor: "#ffffff",button:{primary:"#6aaae4", secondary:"#ffffff", } },dialogue: {email: {display:false,title:"",url:"",},lspa: {accepted:false,},phone: {display:false,title:"",url:"",},dsar: {display:false,title:"",url:"",},intro: { title:"Do Not Sell My Personal Information",description:"Exercise your consumer right to opt out.",}, privacyPolicy: {title:"",url:"", }, optOut: {title:"Personalized Advertisements",description:"Turning this off will opt you out of personalized advertisements on this website.",frameworks:["iab","gam"],}, location:"ca",confirmation: {text: "Confirm",}, } };</script><!-- CookiePro CCPA Opt-Out Script End -->
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-xs-12 pad_none footer_outer">
+<div class="col-sm-12 col-md-2 col-xs-12 pad_none copyright_con">(C) 2020 Liveleak.com</div>
+<div class="col-sm-12 col-md-8 col-xs-12 pad_none footer_nav_con">
+<ul>
+<li><a href="copyright">Copyright</a></li>
+<li><a href="faq">F.A.Q.</a></li>
+<li><a href="contact_us">Contact Us</a></li>
+<li><a href="privacy">Privacy & Cookies</a></li>
+<li><a href="tos">Terms &amp; Conditions</a></li>
+<li><a href="rules">Rules</a></li>
+<li><a href="javascript:void(0)" data-ot-ccpa-opt-out="link" style="display:none;">Do Not Sell My Personal Information</a></li>
+</ul>
+
+</div>
+
+<div class="col-sm-12 col-md-2 col-xs-12 pad_none social_links_con">
+<a href="//www.twitter.com/liveleak"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!--FOOTER START-->
+</main>
+<script type="text/javascript" src="https://cdn3.liveleak.com/ll3/js/index.js"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-315839-4']);
+  _gaq.push(['_setDomainName', 'liveleak.com']);
+
+    _gaq.push(['_setCustomVar',3,'content_rating','',3]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End Google analytics -->
+<script src="https://cdn3.liveleak.com/ll3/js/notify.min.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#aa0000",
+      "text": "#ffdddd"
+    },
+    "button": {
+      "background": "#ff0000"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "href": "privacy",
+    "message": "Liveleak uses cookies to ensure you get the best experience. We recently updated our privacy and cookie policy."
+  }
+})});
+</script>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-c4yHLoeBnD3eE",
+uid:"__INSERT_EMAIL_HERE__"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-c4yHLoeBnD3eE.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+</body>
+</html>
