@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<head>
+	<!-- head-common-bootstrap -->
+     <meta charset="utf-8">
+     <meta name="generator" content="http://www.typepad.com/" />
+     <meta name="keywords" content="voip, telecom, telephony, Andy Abramson, WiFi, FMC, Fixed Mobile Convergence, CallVantage, Vonage, Skype, GizmoProject, SightSpeed, Video Conferencing, Web Conferencing, Mobivox, Truphone, FreeTalk Connect, Lifesize, ooVoo, Collaboration, Screencasting" /><meta name="description" content="All about Voice Over IP and Internet Based Telephony." />
+     <link rel="canonical" href="https://andyabramson.blogs.com/voipwatch/" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta property="og:title" content="VoIPWatch" />
+<meta property="og:site_name" content="VoIPWatch" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="https://andyabramson.blogs.com/voipwatch/" />
+<meta property="og:description" content="My thoughts on The Internet of  Everything Technology, Travel Tech, Voice Over IP,  Internet Based Communications and Video." />
+<meta property="fb:admins" content="" />
+<meta property="og:image" content="https://up0.typepad.com/6a00d83451b99869e200e5500858d58834-220si" />
+
+
+     <!-- Custom fonts for this template -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="/.shared/themes/common/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap bridge -->
+    <link href="/.shared/themes/common/bootstrap/css/bootstrap-bridge.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://andyabramson.blogs.com/voipwatch/styles.css?v=6" type="text/css" media="screen" />
+    <style>.navbar-header, .nav { display:block !important; }</style>
+
+        <link rel="stylesheet" href="https://static.typepad.com/.shared/themes/common/print.css" type="text/css" media="print" />
+        <link rel="alternate" type="application/atom+xml" title="Posts on 'VoIPWatch' (Atom)" href="https://andyabramson.blogs.com/voipwatch/atom.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Posts on 'VoIPWatch' (RSS 1.0)" href="https://andyabramson.blogs.com/voipwatch/index.rdf" />
+        <link rel="alternate" type="application/rss+xml" title="Posts on 'VoIPWatch' (RSS 2.0)" href="https://andyabramson.blogs.com/voipwatch/rss.xml" />
+
+    <script src="//code.jquery.com/jquery.js"></script>
+
+        <script type="text/javascript">
+                var TPApp = {};
+                TPApp.app_uri = "https://www.typepad.com/";
+        </script>
+        <script type="text/javascript" src="https://static.typepad.com/.shared/js/yui/yahoo-dom-event.js,/js/app/thumbnail-gallery-min.js,/js/app/flyouts-min.js"></script>
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-225723-36', 'auto', {'name': 'Typepad'}, {'allowLinker': true} );  // Separate tracker for Typepad.
+ga('Typepad.require', 'linker');
+ga('Typepad.linker:autoLink', ['none']);
+ga('Typepad.set', 'dimension1', '6a00d83451b99869e200d8341c587553ef');
+ga('Typepad.set', 'dimension2', 'index');
+ga('Typepad.send', 'pageview');
+</script>
+
+
+
+
+
+	<title>VoIPWatch</title>
+	<link rel="openid.server" href="https://www.typepad.com/services/openid/server" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.typepad.com/services/rsd/6a00d83451b99869e200d8341c587553ef" />
+			<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://andyabramson.blogs.com/foaf.rdf" />
+	
+        
+</head>
+
+
+
+<body class="layout-two-column-right index">
+	
+	<div id="container" class="container">
+		<div id="container-inner" class="pkg">
+			
+        	<div class="row">
+     
+
+
+<a id="home"></a>
+   
+
+              <div id="banner" class="jumbotron">
+                <h1><a href="https://andyabramson.blogs.com/voipwatch/" accesskey="1">VoIPWatch</a></h1>
+                <h2>My thoughts on The Internet of  Everything Technology, Travel Tech, Voice Over IP,  Internet Based Communications and Video.</h2>
+              </div>
+
+     
+     
+      <div id="autocollapse" class="navbar navbar-default navbar-fixed-top">
+
+<div class="navbar-inner">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+          </button>
+         <a class="navbar-brand" href="https://andyabramson.blogs.com/voipwatch/">Home</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+<li><a href="https://andyabramson.blogs.com/voipwatch/archives.html">Archives</a></li>
+<li><a href="https://profile.typepad.com/andyabramson">Profile</a></li>
+
+          </ul><!-- end main navbar -->
+        </div><!--/.nav-collapse-->
+</div><!--/.navbar-inner-->
+
+      </div><!--/.navbar-->
+
+     
+
+
+
+                        <div id="pagebody">
+                        
+
+                                <div id="pagebody-inner" class="pkg">
+                                        <div id="alpha" class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                                                <div id="alpha-inner" class="pkg">
+                                                        
+
+
+
+
+
+<!-- CAROUSEL POSTS -->
+
+
+<!-- entry list sticky -->
+       
+		
+<div class="entry-featured entry-author-andy_abramson entry-type-post entry" id="entry-6a00d83451b99869e2022ad3bf8f21200d">
+     <div class="entry-inner">
+
+                                                        <h3 class="entry-header"><a href="https://andyabramson.blogs.com/voipwatch/2019/02/ready-to-be-our-next-success-story.html">Ready To Be Our Next Success Story</a></h3>
+                        
+
+
+
+                        <div class="entry-content">
+                                <div class="entry-body">
+                                        <p style="text-align: center;"><a class="asset-img-link" href="https://andyabramson.blogs.com/.a/6a00d83451b99869e2022ad3df3b4f200b-pi"><img alt="Comunicano Logo" class="asset  asset-image at-xid-6a00d83451b99869e2022ad3df3b4f200b img-responsive" src="https://andyabramson.blogs.com/.a/6a00d83451b99869e2022ad3df3b4f200b-120wi" style="display: block; margin-left: auto; margin-right: auto;" title="Comunicano Logo" /></a></p>
+<p><span style="font-size: 14pt; font-family: verdana, geneva;">Comunicano is the premier value creation communications agency serving the telecom, collaboration and mobile industries for over 27 years.&#0160; Over the past 19 years Comunicano has led the communications for startups and companies in transition, leading to 48 successful exits via M&amp;A or IPO, generating more than $5 billion dollars for investors, founders and employees. We&#39;ve driven value and growth for companies acquired by Google, Yahoo, eBay, Cisco, Citrix, Symantec, IBM, Nokia and more.</span></p>
+<p><span style="font-size: 14pt; font-family: verdana, geneva;">If your company is looking to grow in value, attract the right customers, establish the proper ecosystem and align with the right investors or future acquirers, talk with us.</span></p>
+<p><span style="font-size: 14pt; font-family: verdana, geneva;">Scheduling a short consultation starts by telling us about your company and your needs. <a href="https://goo.gl/forms/8z4TmXxWwOYRZ9xE2" rel="noopener" target="_blank">Take a moment and complete our questionnaire</a>, and we&#39;ll get things started with you.</span></p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+                                </div>
+                                
+                                
+                        </div>
+
+<!-- SIGNATURE -->
+
+
+
+
+                        <div class="entry-footer">
+                                <p class="entry-footer-info">
+                                        
+                    <span class="post-footers">Posted at 05:06 AM </span> <span class="separator">|</span> <a class="permalink" href="https://andyabramson.blogs.com/voipwatch/2019/02/ready-to-be-our-next-success-story.html">Permalink</a>
+                                                                                  <span class="separator">|</span>
+                                            
+                                                <a href="https://andyabramson.blogs.com/voipwatch/2019/02/ready-to-be-our-next-success-story.html#comments">Comments (0)</a>
+                                            
+                                        
+                                        
+                                </p>
+                                <!-- technorati tags -->
+
+
+                                <!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-twitter">
+     <a href="https://twitter.com/share?url=https%3A%2F%2Fandyabramson.blogs.com%2Fvoipwatch%2F2019%2F02%2Fready-to-be-our-next-success-story.html&text=Ready%20To%20Be%20Our%20Next%20Success%20Story" target="_blank"><img src="/.shared/images/circle-twitter.png" alt="Twitter" /></a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-facebook_like">
+     
+     <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fandyabramson.blogs.com%2Fvoipwatch%2F2019%2F02%2Fready-to-be-our-next-success-story.html" target="_blank"><img src="/.shared/images/circle-facebook.png" alt="Facebook" /></a>
+     
+</span>
+	</p>
+
+
+                        </div>
+                </div>
+       </div>
+
+        
+
+
+<!-- REGULAR POSTS -->
+
+
+
+
+
+
+    <h2 class="date-header">September 06, 2020</h2>
+
+	<div class="entry-author-andy_abramson entry-type-post entry" id="entry-6a00d83451b99869e2026be40f0842200d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://andyabramson.blogs.com/voipwatch/2020/09/the-cashless-sports-stadium-arrives.html">The Cashless Sports Stadium Arrives</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p><a href="https://www.raiders.com/news/allegiant-stadium-to-make-history-as-the-first-american-pro-sports-venue-to-open" rel="noopener" target="_blank">The headline on the news release</a> read <strong>&quot;Allegiant Stadium to make history as the first American pro sports venue to open cashless&quot;</strong> so being a reformed sports marketing executive brought a smile to my face. It was also in a real way, a true to life dejavu for me. You see, 32 years ago when I was working with the Denver Nuggets we were one of, if not, the first arena&#39;s to incorporate credit cards at the concession stands.</p>
+<p>Back then, cash was king. You bought your beer with cash. Paid for your popcorn with dollars. You picked out merchandise at the stands and handed over ones, fives, tens and twenties. But at the now long gone McNichols Arena here the Nuggets played we were going with credit cards too. Back then we were in negotiations with both Pepsi and Coke for the pouring rights in the building. One of the &quot;big&quot; ideas that co-owner Andy Shlenker had--to this day he was in my mind one of the brightest and most creative executives in sports--was to bring in the fast food brands into the arena and have greater sales as a way to get people to eat more of what they already like, and in turn increase the per caps (per person spending). It was a novel idea. A real first.</p>
+<p>But one of the catches with Pepsi was they wanted their spin off brands that became YUM Brands-Pizza Hut, Taco Bell and Pizza Hut to take credit cards. So, we said, sure. We turned to our concessions partner, ARA who earlier had suggested the same idea. But getting credit card machines to work inside an arena was not an easy feat back in the late 80&#39;s. It started with the fact that the goal was to speed people through the lines, not make them wait longer.</p>
+<p>Phone lines wouldn&#39;t do it. They take to long. So how did we do it? With a satellite and microwave link. It was a bit of a workaround but microwave link would send the data to a terminal hub, that would approve the credit card. The satellite link would send the data back to the cashier. This all took only a few seconds in theory, but it did work.</p>
+<p>Now, with 5G this idea is made easier. So much easier. And more reliable.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 06:35 AM </span> <span class="separator">|</span> <a class="permalink" href="https://andyabramson.blogs.com/voipwatch/2020/09/the-cashless-sports-stadium-arrives.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://andyabramson.blogs.com/voipwatch/2020/09/the-cashless-sports-stadium-arrives.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-twitter">
+     <a href="https://twitter.com/share?url=https%3A%2F%2Fandyabramson.blogs.com%2Fvoipwatch%2F2020%2F09%2Fthe-cashless-sports-stadium-arrives.html&text=The%20Cashless%20Sports%20Stadium%20Arrives" target="_blank"><img src="/.shared/images/circle-twitter.png" alt="Twitter" /></a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-facebook_like">
+     
+     <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fandyabramson.blogs.com%2Fvoipwatch%2F2020%2F09%2Fthe-cashless-sports-stadium-arrives.html" target="_blank"><img src="/.shared/images/circle-facebook.png" alt="Facebook" /></a>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+    <h2 class="date-header">September 02, 2020</h2>
+
+	<div class="entry-author-andy_abramson entry-type-post entry" id="entry-6a00d83451b99869e2026bde8f0ca6200c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://andyabramson.blogs.com/voipwatch/2020/09/google-voice-adds-on-going-call-takeover.html">Google Voice Adds On Going Call Takeover</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Google Voice, originally Grand Central, continues to be around and used by many people. While Google doesn&#39;t put the same effort behind it as they are with Meet, it remains a very useful and viable front end number for many people who have multiple phone number, or devices, when they wish to be reached. For many, it&#39;s the second number, often used by people who don&#39;t want to give out their personal cell or home phone, but still want to be reached by customers.</p>
+<p><a class="asset-img-link" href="https://andyabramson.blogs.com/.a/6a00d83451b99869e2026bde8f0bfe200c-pi" style="float: left;"><img alt="IMG-0069" class="asset  asset-image at-xid-6a00d83451b99869e2026bde8f0bfe200c img-responsive" src="https://andyabramson.blogs.com/.a/6a00d83451b99869e2026bde8f0bfe200c-320wi" style="margin: 0px 5px 5px 0px;" title="IMG-0069" /></a>Today, with one of their iOS updates that they regularly produce, and without much fanfare, they keep adding features found in many of the UCaaS offerings from the brands we hear about everyday. One today that popped up was in call takeover, where a call may be on one device, say your iPad and you want to continue talking on your iPhone. I&#39;m guessing this is also available on Android too, and where it really helps is if you&#39;re on a call on a deskphone and want to go take the call and get going. While this feature has been available from other UCaaS providers it hasn&#39;t been there for Google Voice users.&#0160;</p>
+<p>When you add in that functionality to <a href="https://support.google.com/fi/thread/54962217?hl=en" rel="noopener" target="_blank">Google Voice&#39;s recent Google Fi integration</a>, you have an interesting proposition that the traditional USA mobile operators don&#39;t offer. That being the ability to direct a call using Google Voice to a landline, and then pull the call back to your mobile device and get going by moving the call over to the smartphone. They way you do that is you either could take or originate a call on your Google Voice number on a desk phone or tablet at home or at the office, and then using the new On Going Call Takeover function, pick it up on you smartphone and leave the house or office without ending the call in progress.</p>
+<p>While Google Voice has not seen the kind of traction that Meet is seeing,&#0160; and while Fi is a niche player in mobile, the steady path of merging all the voice services together is apparently going on at Google, just without much fanfare.</p>
+<p>While my travel internationally has ground to a halt due to the Corona virus, Google Voice has remained an alternative number for me, just as it has since it&#39;s start, as well as being a public facing number too.&#0160; It&#39;s value proposition from the start has been, one number for life, that can reach you on any other number. Now, it&#39;s one number that can truly reach you on almost any device, including SIP enabled phones and speakerphones.&#0160;</p>
+<p>My feeling is that as more people work from home, and want some division between home phone, personal mobile phone and their work phone, that Google Voice is a viable option, with more features and more outlets coming. Google is far from treating voice as an amenity, and see&#39;s it as a core part of GSuite, but hasn&#39;t played out their entire hand just yet with it.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 07:05 AM </span> <span class="separator">|</span> <a class="permalink" href="https://andyabramson.blogs.com/voipwatch/2020/09/google-voice-adds-on-going-call-takeover.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://andyabramson.blogs.com/voipwatch/2020/09/google-voice-adds-on-going-call-takeover.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-twitter">
+     <a href="https://twitter.com/share?url=https%3A%2F%2Fandyabramson.blogs.com%2Fvoipwatch%2F2020%2F09%2Fgoogle-voice-adds-on-going-call-takeover.html&text=Google%20Voice%20Adds%20On%20Going%20Call%20Takeover" target="_blank"><img src="/.shared/images/circle-twitter.png" alt="Twitter" /></a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-facebook_like">
+     
+     <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fandyabramson.blogs.com%2Fvoipwatch%2F2020%2F09%2Fgoogle-voice-adds-on-going-call-takeover.html" target="_blank"><img src="/.shared/images/circle-facebook.png" alt="Facebook" /></a>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+    <h2 class="date-header">September 01, 2020</h2>
+
+	<div class="entry-author-andy_abramson entry-type-post entry" id="entry-6a00d83451b99869e2026bde8ece9f200c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://andyabramson.blogs.com/voipwatch/2020/09/dialpad-gets-a-big-high-five.html">Dialpad Gets A Big High Five</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>To be always transparent, unlike many in the tech reporting or analyst world, I&#39;m a shareholder in Dialpad and have in the past consulted on various projects and programs to the company. That means, I&#39;m openly biased to see the company succeed. But then again, I&#39;m supportive of the telecom industry, and never hide my affiliations or who I work with or advise.</p>
+<p>That&#39;s why when I learned this morning about the <a href="https://techcrunch.com/2020/09/01/dialpad-acquires-video-conferencing-service-highfive/" rel="noopener" target="_blank">Dialpad acquisition of HighFive</a>, I couldn&#39;t have been more ecstatic as it shows a steady path forward for the company that is really one of the few born in the cloud, and buyers of born in the cloud technology, out there.</p>
+<p>Often you hear of some company being acquired. Usually its for gap filling, market position, revenue or a team of people to make the business look better.&#0160; This purchase does all that and more because as growth oriented as Dialpad has been since their start, they have done it with a very lean team, and a core group of people who keep it going, growing and more. The Talk IQ acquisition two years back set them on a smart path around AI, and while companies like Chorus.AI or Grain, sell similar add-on services, they are plug ins, not a core part of the business. At Dialpad, the TalkIQ integration is woven inside the entire service--phone, conferencing and obviously soon in video. (i.e. Martin Geddes-HyperVoice hat tip circa 2012).</p>
+<p>But why buy High Five? Beyond what has been reported already there&#39;s a lot more here:</p>
+<ol>
+<li>Google lineage of staff</li>
+<li>Understanding of Cloud Native technology</li>
+<li>Deepening of the team-Vincent, Brian and John plus Craig all have been the product, ops and management team. The Talk IQ team added significant smarts and depth, this adds even more skill sets and greater depth. As a former sports team executive who learned all about TEAM building from the great Flyers GM, Keith Allen, having depth and talent who can all play together is never easy. This group can and does.</li>
+<li>Monthly Recurring Revenue (MRR) is cheaper to buy than to give up equity to investors. As a shareholder who sees that Video is clearly where the market is going, this adds customers who already like the video service. Add in UberConference and Dialpad to those customers and its a multiple win for Dialpad and the shareholders as it increases value of the business. Customers, and revenue per seat are how businesses are bought. IP value is added in, so is team but value comes from what money is coming in the door.</li>
+<li>Doing Voice right isn&#39;t easy. Doing video right, is even harder. Dialpad picks up a video team that&#39;s proven.&#0160;</li>
+<li>If video is hard. Getting hardware right is even more complicated. I remember working with the Skype team on their video hardware debut. HighFive has proven they can design, source and supply gear that works WITH THEIR SERVICE.&#0160;</li>
+<li>This means people can&#39;t say &quot;you don&#39;t offer...&quot; vs, Zoom or Cisco.</li>
+</ol>
+<p>Long time VoIP and Cloud exec Jeff Bonforte, while at Yahoo Voice, once remarked he would never be in the hardware business. Well for video to be done right, hardware with cameras and speakerphones is a necessary part of the game. So for Dialpad, HighFive brings them all types of hardware smarts, that integrates into the service natively, not as an add on.</p>
+<p>As someone who has been using UberConference video from about the time it was an internal idea, and recalling a video call one fall night while in San Francisco with CEO, Craig Walker who was in Singapore on a local SIM card, and I was on my way to an upscale pizza place, I remember how video at Dialpad started. To say, &quot;you&#39;ve come along way, baby&quot; is an understatement. With HighFive in the house, you&#39;ve just moved from a having a &quot;we too&quot; product, to a being serious player to Zoom, WebEx and Teams, as a top flight provider who has cloud, customers, convenience and a cool offering.</p>
+<p>Yes, I&#39;m biased, but having been around telecom now for 20 years, this deal rings like money in the bank.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 11:18 AM </span> <span class="separator">|</span> <a class="permalink" href="https://andyabramson.blogs.com/voipwatch/2020/09/dialpad-gets-a-big-high-five.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://andyabramson.blogs.com/voipwatch/2020/09/dialpad-gets-a-big-high-five.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-twitter">
+     <a href="https://twitter.com/share?url=https%3A%2F%2Fandyabramson.blogs.com%2Fvoipwatch%2F2020%2F09%2Fdialpad-gets-a-big-high-five.html&text=Dialpad%20Gets%20A%20Big%20High%20Five" target="_blank"><img src="/.shared/images/circle-twitter.png" alt="Twitter" /></a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-facebook_like">
+     
+     <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fandyabramson.blogs.com%2Fvoipwatch%2F2020%2F09%2Fdialpad-gets-a-big-high-five.html" target="_blank"><img src="/.shared/images/circle-facebook.png" alt="Facebook" /></a>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+			<div class="pager-bottom pager-entries pager content-nav">
+		<div class="pager-inner">
+			
+			
+			<span class="pager-right">
+				<a href="https://andyabramson.blogs.com/voipwatch/page/2/"><span class="pager-label">Next</span>
+					<span class="chevron">&#187;</span></a>
+			</span>
+		</div>
+	</div>
+	
+	
+
+        
+
+
+
+                                                </div>
+                                        </div>
+                                        <div id="beta" class="well col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                                <div id="beta-inner" class="pkg">
+                                                        <!-- sidebar -->
+
+
+<!-- powered by -->
+<div class="module-powered module">
+        <div class="module-content">
+
+                <button type="button" class="btn btn-block"><a href="https://www.typepad.com/" title="Blog">Blog</a> powered by <a href="https://www.typepad.com/" title="Typepad">Typepad</a></button>
+
+        </div>
+</div>
+<!-- custom_code.tt --><div class="module-custom_html module">
+    <div class="module-content">
+<a class="twitter-timeline" href="https://twitter.com/andyabramson" data-widget-id="262852669654306816">Tweets by @andyabramson</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    </div>
+</div>
+<!-- end custom_code.tt -->
+<div class="module-search module">
+    <h2 class="module-header">Search</h2>
+    <div class="module-content">
+        <form id="search-blog" method="get" action="https://andyabramson.blogs.com/.services/blog/6a00d83451b99869e200d8341c587553ef/search" class="form-search form-inline" role="search">
+            
+<div class="form-group"><input type="search" name="filter.q" results="5" value="" class="form-control" placeholder="Search" /></div><button type="submit" value="Search" class="btn btn-default">Submit</button>
+
+        </form>
+    </div>
+</div>
+<!-- END Blog Search Module -->
+<!-- user photo -->
+    <div class="module-photo module">
+
+
+     
+
+
+<div class="module-content">
+
+
+<img src="https://andyabramson.blogs.com/.a/6a00d83451b99869e200e5500858d58834-150wi" alt="My Photo" class="img-responsive" />
+
+
+</div></div>
+
+<!-- about page link -->
+<div class="module-about module">
+	<h2 class="module-header"><a
+		href="https://andyabramson.blogs.com/about.html">About</a></h2>
+</div>
+<div class="module-email module">
+	<div class="module-content">
+		<script type="text/javascript">
+<!--
+document.write('<a href="ma' + 'ilto:&#118;&#111;&#105;&#112;&#64;&#97;&#110;&#100;&#121;&#97;&#98;&#114;&#97;&#109;&#115;&#111;&#110;&#46;&#110;&#101;&#116;">Email Me</a>');
+// -->
+</script>
+
+	</div>
+</div>
+<!-- list_inlcude.tt  -->
+<div id="andy_in_the_news" class="module-typelist module">
+<h2 class="module-header">Andy In The News</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="https://www.businesswire.com/news/home/20200727005029/en/Onclusive-Expands-Media-Monitoring-Software-Suite" target="_blank">In Onclusive's News Release About Media Monitoring</a></li>
+							<li class="module-list-item"><a title="" href="https://telecomreseller.com/2020/06/26/podcast-andy-abramson-says-build-the-legend-of-you/" target="_blank">On Telecom Reseller About Legends, Backstories and Personal Branding</a></li>
+							<li class="module-list-item"><a title="" href="https://www.wcido.com/en/digitalnomad-tips-how-to-become-a-digital-nomad#andy-abramson-be-sure-to-have-great-connectivity" target="_blank">On How to Be a Digital Nomad</a></li>
+							<li class="module-list-item"><a title="" href="https://www.elliott.org/blog/money-saving-car-rental-trick/" target="_blank">In Elliott Advocacy: On Rental Car Hacks</a></li>
+							<li class="module-list-item"><a title="" href="http://robertlorimor.com/seo-game/#more-238" target="_blank">On Blogs and SEO/Keywords Game</a></li>
+							<li class="module-list-item"><a title="" href="https://searchunifiedcommunications.techtarget.com/feature/Slack-and-Zoom-integration-drives-Skypes-decline?utm_source=dlvr.it&amp;utm_medium=twitter" target="_blank">In TechTarget On Slack, Zoom and Skype</a></li>
+							<li class="module-list-item"><a title="" href="https://telecomreseller.com/2020/04/24/podcast-andy-abramson-been-a-remote-worker-since-1974-he-wouldnt-have-it-any-other-way/" target="_blank">In Telecom Reseller: All About Remote Working</a></li>
+							<li class="module-list-item"><a title="" href="https://www.usatoday.com/story/travel/advice/2020/03/27/coronavirus-how-covid-19-pandemic-finally-killed-travel-loyalty/5079778002/" target="_blank">In USA Today: Will the coronavirus pandemic cost the travel industry its most loyal customers?</a></li>
+							<li class="module-list-item"><a title="" href="https://www.prnewswire.com/news-releases/23-of-employees-face-safety-and-security-issues-at-their-coworking-space-301016387.html" target="_blank">Clutch on Coworking Safety</a></li>
+							<li class="module-list-item"><a title="" href="https://www.usatoday.com/story/travel/advice/2020/03/06/nonrefundable-hotel-rooms-heres-how-you-could-actually-get-refund/4971341002/" target="_blank">In USA Today-How to Avoid Non-Cancellation Fees</a></li>
+							<li class="module-list-item"><a title="" href="https://www.futureofworknews.com/topics/futureofwork/articles/444540-great-expectations-millennial-workers-will-communicate-collaborate-differently.htm" target="_blank">Future of Work: Millennial Workers Will Communicate and Collaborate Differently</a></li>
+							<li class="module-list-item"><a title="" href="https://www.cloudcommunications.com/podcast-skyswitch-steps-up-at-itexpo-with-appointment-reminder-grandstream-end-points-network-level-robocall-blocking/" target="_blank">CCA Podcast: What's New With SkySwitch</a></li>
+							<li class="module-list-item"><a title="" href="https://www.forbes.com/sites/christopherelliott/2020/03/01/never-park-at-the-airport/#1857922e1788" target="_blank">In Forbes About Airport Parking</a></li>
+							<li class="module-list-item"><a title="" href="https://www.rd.com/advice/airplane-hacks-make-flying-easier/page/2/" target="_blank">In Readers Digest on Airplane Travel Hacks </a></li>
+							<li class="module-list-item"><a title="" href="https://www.elliott.org/airline-problems/get-rid-of-royalty-program/" target="_blank">In Elliott Advocacy On Travel Points Programs</a></li>
+							<li class="module-list-item"><a title="" href="https://blog.crowneplaza.com/uncategorized/how-ceo-andy-abramson-built-a-global-social-life/" target="_blank">In Crowne Plaza Blog: On Building a Global Social Life</a></li>
+							<li class="module-list-item"><a title="" href="https://www.creditcards.com/credit-card-news/hotel-hidden-fees-1273.php" >In CreditCard News On Hotel Resort Fees</a></li>
+							<li class="module-list-item"><a title="" href="https://www.coolbusinessideas.com/archives/how-online-meetings-are-changing-the-face-of-business/" >In Cool Cool Business Ideas: On Collaboration</a></li>
+							<li class="module-list-item"><a title="" href="https://chriselliotts.com/how-find-your-phone-when-traveling/" target="_blank">Christopher Elliot On How To Find You Phone When Traveling</a></li>
+							<li class="module-list-item"><a title="" href="https://www.linkedin.com/pulse/businesses-hint-2020-influencer-marketing-strategy-sammy-alderson/" >In LinkedIn Pulse on Influencer Marketing</a></li>
+							<li class="module-list-item"><a title="" href="https://www.businessobserverfl.com/article/andy-abramson-marketing-brand-communication-design-comunicano-sarasota" target="_blank">Featured in The Business Observer: On Building Successful Brands</a></li>
+							<li class="module-list-item"><a title="" href="https://www.washingtonpost.com/lifestyle/travel/unhappy-with-your-travel-loyalty-program-join-the-crowd/2019/09/05/41845258-c9c1-11e9-a1fe-ca46e8d573c0_story.html" target="_blank">In the Washington Post on Travel Program Loyalty</a></li>
+							<li class="module-list-item"><a title="" href="https://www.creditkarma.com/advice/i/clear-airports/" target="_blank">In Credit Karma on Using Clear</a></li>
+							<li class="module-list-item"><a title="" href="https://www.usatoday.com/story/travel/advice/2019/08/02/carry-luggage-how-make-smaller-better-trend-work-you/1865011001/" target="_blank">In USA Today: On Travel Bags and Traveling Light</a></li>
+							<li class="module-list-item"><a title="" href="https://gobrief.com/blog/boost-your-productivity/45-top-entrepreneurs-share-their-tips-on-how-to-increase-productivity-at-work-part-1-3" target="_blank">In Brief About Being and Staying Productive</a></li>
+							<li class="module-list-item"><a title="" href="https://www.staradvertiser.com/2019/07/14/travel/best-ways-to-navigate-from-high-tech-to-low/" target="_blank">In the Honolulu Star-Advertiser on How to Navigate When Traveling</a></li>
+							<li class="module-list-item"><a title="" href="https://trafficjammedia.co/not-understand-audience/" target="_blank">It’s not them, it’s you; understand your audience</a></li>
+							<li class="module-list-item"><a title="" href="https://www.optimum.com/business/support/resource/keep-your-team-connected" target="_blank">Keeping Your Team Connected Everywhere</a></li>
+							<li class="module-list-item"><a title="" href="https://www.choicehotels.com/explore/travel-tips/how-to-use-travel-organizer-to-travel-lighter" target="_blank">On Choice Hotels-About Traveling Lighter</a></li>
+							<li class="module-list-item"><a title="" href="https://eu.usatoday.com/story/travel/advice/2019/06/21/ubers-taxis-buses-ground-transportation-ease-confusion-grows/1513133001/" target="_blank">In USA Today on Vacation ground transportation has never been easier ⁠— or more confusing</a></li>
+							<li class="module-list-item"><a title="" href="https://www.latimes.com/travel/la-tr-travel-spot-gps-getting-lost-20190602-story.html" target="_blank">In the L.A. Times on GPS, Maps and More</a></li>
+							<li class="module-list-item"><a title="" href="https://www.creditkarma.com/advice/i/clear-airports/" target="_blank">In Credit Karma on CLEAR Airport Identiy</a></li>
+							<li class="module-list-item"><a title="" href="https://www.telcosolutions.net/post/will-customers-demand-live-video-from-sales-and-service-teams-in-the-future" target="_blank">TelcoSolutions: Video In The Workplace</a></li>
+							<li class="module-list-item"><a title="" href="https://bestcompany.com/voip/blog/voip-vs-ucaas-business-buzzwords-demystified" target="_blank">VoIP vs. UCaaS: Business Buzzwords Demystified</a></li>
+							<li class="module-list-item"><a title="" href="https://www.ivyexec.com/career-advice/2019/making-the-pitch-to-work-remotely-best-practices-to-boost-your-odds-of-success/" target="_blank">In Ivy Exec Coach on Working Remotely</a></li>
+							<li class="module-list-item"><a title="" href="http://www.realclearlife.com/travel/best-guide-airport-airline-wifi/" target="_blank">In Real Clear: On In Flight and Airport Wi-Fi</a></li>
+							<li class="module-list-item"><a title="" href="https://twitter.com/typepad/status/1086806790111719424" target="_blank">Called out by Typepad: My 2019 CES Post</a></li>
+							<li class="module-list-item"><a title="" href="https://www.insidehook.com/nation/the-ultimate-guide-to-airline-airport-wifi" target="_blank">In Inside Hook: THE ULTIMATE GUIDE TO AIRLINE AND AIRPORT WIFI</a></li>
+							<li class="module-list-item"><a title="" href="https://www.creditkarma.com/advice/i/clear-airports/" target="_blank">In Credit Karma About Clear and Speeding Through Airports</a></li>
+							<li class="module-list-item"><a title="" href="https://medium.com/@topcontent/influencers-organic-or-paid-making-the-right-choice-matters-81b7e07a6d15" target="_blank">In Medium on: Influencers: Organic or Paid? Making the Right Choice Matters</a></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<div class="module-calendar module">
+	<h2 class="module-header">September 2020</h2>
+	<div class="module-content table-responsive">
+		<table class="table" summary="Monthly calendar with links to each day's posts">
+                        <tr>
+                                                                 <th>Sun</th>
+                                                                 <th>Mon</th>
+                                                                 <th>Tue</th>
+                                                                 <th>Wed</th>
+                                                                 <th>Thu</th>
+                                                                 <th>Fri</th>
+                                                                 <th>Sat</th>
+                                
+                        </tr>
+                                                   <tr>
+                                        <td>&nbsp;</td>
+                                
+                                                   
+                                        <td>&nbsp;</td>
+                                
+                                                   
+                                        <td><a href="https://andyabramson.blogs.com/voipwatch/2020/09/dialpad-gets-a-big-high-five.html">1</a></td>
+                                
+                                                   
+                                        <td><a href="https://andyabramson.blogs.com/voipwatch/2020/09/google-voice-adds-on-going-call-takeover.html">2</a></td>
+                                
+                                                   
+                                        <td>3</td>
+                                
+                                                   
+                                        <td>4</td>
+                                
+                                                   
+                                        <td>5</td>
+                                </tr>
+                                                   <tr>
+                                        <td><a href="https://andyabramson.blogs.com/voipwatch/2020/09/the-cashless-sports-stadium-arrives.html">6</a></td>
+                                
+                                                   
+                                        <td>7</td>
+                                
+                                                   
+                                        <td>8</td>
+                                
+                                                   
+                                        <td>9</td>
+                                
+                                                   
+                                        <td>10</td>
+                                
+                                                   
+                                        <td>11</td>
+                                
+                                                   
+                                        <td>12</td>
+                                </tr>
+                                                   <tr>
+                                        <td>13</td>
+                                
+                                                   
+                                        <td>14</td>
+                                
+                                                   
+                                        <td>15</td>
+                                
+                                                   
+                                        <td>16</td>
+                                
+                                                   
+                                        <td>17</td>
+                                
+                                                   
+                                        <td>18</td>
+                                
+                                                   
+                                        <td>19</td>
+                                </tr>
+                                                   <tr>
+                                        <td>20</td>
+                                
+                                                   
+                                        <td>21</td>
+                                
+                                                   
+                                        <td>22</td>
+                                
+                                                   
+                                        <td>23</td>
+                                
+                                                   
+                                        <td>24</td>
+                                
+                                                   
+                                        <td>25</td>
+                                
+                                                   
+                                        <td>26</td>
+                                </tr>
+                                                   <tr>
+                                        <td>27</td>
+                                
+                                                   
+                                        <td>28</td>
+                                
+                                                   
+                                        <td>29</td>
+                                
+                                                   
+                                        <td>30</td>
+                                
+                                                   
+                                        <td>&nbsp;</td>
+                                
+                                                   
+                                        <td>&nbsp;</td>
+                                
+                                                   
+                                        <td>&nbsp;</td>
+                                </tr>
+                        
+		</table>
+	</div>
+</div>
+<div class="module-category-cloud module">
+	<h2 class="module-header"><a href="https://andyabramson.blogs.com/voipwatch/archives.html">Categories</a></h2>
+	<div class="module-content">
+		<ul class="module-list">
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/books/">Books</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/crowdfunding/">Crowdfunding</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://andyabramson.blogs.com/voipwatch/current_affairs/">Current Affairs</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/film/">Film</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/food_and_drink/">Food and Drink</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/games/">Games</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/mobile/">Mobile</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/music/">Music</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://andyabramson.blogs.com/voipwatch/pstn/">PSTN</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/science/">Science</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/sports/">Sports</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/startups/">Startups</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://andyabramson.blogs.com/voipwatch/television/">Television</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://andyabramson.blogs.com/voipwatch/travel/">Travel</a></li>
+			<li class="module-list-item cloud-weight-10"><a href="https://andyabramson.blogs.com/voipwatch/voip/">VoIP</a></li>
+			<li class="module-list-item cloud-weight-5"><a href="https://andyabramson.blogs.com/voipwatch/voip_and_wifi/">VoIP and Wi-FI</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://andyabramson.blogs.com/voipwatch/webtech/">Web/Tech</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://andyabramson.blogs.com/voipwatch/weblogs/">Weblogs</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://andyabramson.blogs.com/voipwatch/wireless/">Wireless</a></li>
+		</ul>
+	</div>
+</div>
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="https://andyabramson.blogs.com/voipwatch/archives.html">Archives</a></h2>
+		<div class="module-content">
+												<ul class="module-list">
+				
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week37/index.html">September 6, 2020 - September 12, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week36/index.html">August 30, 2020 - September 5, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week34/index.html">August 16, 2020 - August 22, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week26/index.html">June 21, 2020 - June 27, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week25/index.html">June 14, 2020 - June 20, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week21/index.html">May 17, 2020 - May 23, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week20/index.html">May 10, 2020 - May 16, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week18/index.html">April 26, 2020 - May 2, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week11/index.html">March 8, 2020 - March 14, 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/week9/index.html">February 23, 2020 - February 29, 2020</a></li>
+									</ul>
+									<p class="module-more"><a href="https://andyabramson.blogs.com/voipwatch/archives.html">More...</a></p>
+				
+				
+			
+		</div>
+	</div>
+
+<!-- archives -->
+
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="https://andyabramson.blogs.com/voipwatch/archives.html">Archives</a></h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/09/index.html">September 2020</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/08/index.html">August 2020</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/06/index.html">June 2020</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/05/index.html">May 2020</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/03/index.html">March 2020</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/02/index.html">February 2020</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2020/01/index.html">January 2020</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2019/12/index.html">December 2019</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2019/11/index.html">November 2019</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://andyabramson.blogs.com/voipwatch/2019/10/index.html">October 2019</a></li>
+				
+			</ul>
+		</div>
+	</div>
+
+<div class="module-syndicate module">
+	<div class="module-content">
+	<a href="https://andyabramson.blogs.com/voipwatch/atom.xml"><i class="fas fa-rss"></i> Subscribe to this blog's feed</a>
+	</div>
+</div>
+
+
+
+
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+</div> <!-- row -->
+                        
+
+
+<!-- container-footer -->
+<div id="footer">
+<div class="row well"><div class="col-md-12">
+	<div id="footer-inner">
+		<ul class="footer-list pkg list-inline" >
+			<li class="footer-list-item"><a href="https://andyabramson.blogs.com/voipwatch/">VoIPWatch</a></li>
+			<li class="last-footer-list-item footer-list-item"><a href="http://www.typepad.com/">Powered by Typepad</a></li>
+		</ul>
+	</div>
+</div></div>
+</div>
+
+                </div>
+        </div>
+        
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="/.shared/themes/common/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+     function autocollapse() {
+        var navbar = jQuery('#autocollapse'); navbar.removeClass('collapsed');
+            if(navbar.innerHeight() > 50) {
+               navbar.addClass('collapsed');
+               $('.navbar button').css("visibility","visible");
+             }
+     }
+autocollapse();
+
+$('.navbar-nav,.navbar-header').fadeIn('slow');
+jQuery(window).on('resize', autocollapse);
+</script>
+
+
+
+
+
+<script type="text/javascript">
+function resizebanner() {
+     var $div = $('#banner');
+     bg = $div.css('background-image');
+       if (bg) {
+         var src = bg.replace(/(^url\()|(\)$|[\"\'])/g, '');
+           $img = $('<img>').attr('src', src).on('load', function() {
+              var img = new Image;
+              img.src = src;
+              var imgW = img.width;
+              var imgH = img.height;             
+              var newW = $('#banner').width();
+              var newH = imgH / imgW * newW;
+       $('#banner').height(newH);
+       $('#banner').css('visibility', 'visible');
+      });//end when loaded
+  }//end if bg
+}//end 
+    (function($) {
+       $(document).on('ready', resizebanner);
+       $(window).on('resize', resizebanner);
+    })(jQuery);
+</script>
+
+
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="https://www.typepad.com/t/stats?blog_id=18262&amp;user_id=12316&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>
+
+
+
+<!-- Begin disqus Tag -->
+
+<!-- End disqus Tag -->
+</body>
+</html>
+
+<!-- ph=1 -->
